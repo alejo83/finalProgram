@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Consultar</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+<script src="consultar.js"></script>
+</head>
+
+<body background="fondo.jpg">
+<center><h1><font face="Comic Sans MS" color="white">CONSULTAR HABITACION  </h></center>
+
+<h4>
+
+  <div class="form-group"> <!-- tipo de equipo -->
+        <br><label for="precio" class="control-label">Precio</label>
+        <select class="form-control" id="precio">
+            <option value="VA"></option>
+            <option value="500000">$500.000</option>
+            <option value="800000">$800.000</option>
+            <option value="900000">$900.000</option>
+            <option value="1100000">$1.100.000</option>
+            <option value="1500000">$1.500.000</option>
+            
+             </select> 
+
+              	</div> 
+
+  <br><button type="button" id="buscarpre" class="btn btn-danger">Buscar</button>
+  
+
+    <br><div class="form-group"> <!-- tipo de equipo -->
+        <br><label for="tipo" class="control-label">Capacidad</label>
+        <select class="form-control" id="capacidad">
+            n>
+            <option value="VA"></option>
+            <option value="2">2</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+            <option value="10">10</option>
+            
+         </select>                    
+    </div>
+
+ 
+ <button type="button" id="buscarcapa" class="btn btn-danger">Buscar</button>
+ 
+    <div class="form-group"> <!-- tipo de equipo -->
+        <br><label for="tipo" class="control-label">Piso</label>
+        <select class="form-control" id="piso">
+            n>
+            <option value="VA"></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+
+           
+            
+         </select>                    
+    </div>
+    
+    </font>
+</h4>
+
+ 
+  <button type="button" id="buscarpiso" class="btn btn-danger">Buscar</button>
+  
+<br /><div class="alert alert-info"  id ="resultado"></div>
+  </body>
+  </html>
+
